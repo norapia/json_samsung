@@ -1,0 +1,50 @@
+{
+    "supermercados":[
+       {
+          "Lidl":{
+             "direccion":"Calle Nueva 17, Albacete, España",
+             "geolocalizacion":{
+                "latitud":11.12333,
+                "longitud":5.233
+             },
+             "productos":[
+                {
+                   "nombre":"Leche de soja",
+                   "oferta":true,
+                   "periodo_vigencia":{
+                      "inicio":"01-04-2023",
+                      "fin":"15-04-2023"
+                   },
+                   "habitual":false,
+                   "cantidad":2,
+                   "unidad_medida":"litro",
+                   "precio":0.99,
+                   "adquirido":true
+                },
+                {
+                   "nombre":"Tofu",
+                   "oferta":false,
+                   "habitual":true,
+                   "cantidad":1,
+                   "unidad_medida":"250g",
+                   "precio":3,
+                   "adquirido":false
+                },
+                {
+                   "nombre":"Yogur griego",
+                   "oferta":true,
+                   "periodo_vigencia":{
+                      "inicio":"01-03-2023",
+                      "fin":"30-03-2023"
+                   },
+                   "habitual":false,
+                   "cantidad":6,
+                   "unidad_medida":"unidad",
+                   "precio":2.99,
+                   "adquirido":false
+                }
+             ]
+          }
+       }
+    ]
+ }

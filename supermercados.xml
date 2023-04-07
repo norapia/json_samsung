@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <supermercados>
+    <Lidl>
+      <direccion>Calle Nueva 17, Albacete, España</direccion>
+      <geolocalizacion>
+        <latitud>11.12333</latitud>
+        <longitud>5.233</longitud>
+      </geolocalizacion>
+      <productos>
+        <nombre>Leche de soja</nombre>
+        <oferta>true</oferta>
+        <periodo_vigencia>
+          <inicio>01-04-2023</inicio>
+          <fin>15-04-2023</fin>
+        </periodo_vigencia>
+        <habitual>false</habitual>
+        <cantidad>2</cantidad>
+        <unidad_medida>litro</unidad_medida>
+        <precio>0.99</precio>
+        <adquirido>true</adquirido>
+      </productos>
+      <productos>
+        <nombre>Tofu</nombre>
+        <oferta>false</oferta>
+        <habitual>true</habitual>
+        <cantidad>1</cantidad>
+        <unidad_medida>250g</unidad_medida>
+        <precio>3</precio>
+        <adquirido>false</adquirido>
+      </productos>
+      <productos>
+        <nombre>Yogur griego</nombre>
+        <oferta>true</oferta>
+        <periodo_vigencia>
+          <inicio>01-03-2023</inicio>
+          <fin>30-03-2023</fin>
+        </periodo_vigencia>
+        <habitual>false</habitual>
+        <cantidad>6</cantidad>
+        <unidad_medida>unidad</unidad_medida>
+        <precio>2.99</precio>
+        <adquirido>false</adquirido>
+      </productos>
+    </Lidl>
+  </supermercados>
+</root>
